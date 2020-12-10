@@ -21,7 +21,7 @@ describe ("SideNav testing", () => {
     expect(wrapper.find("ul").length).toBe(1);
   })
 
-  it('Should render 1 <li> element for each nav item (4 total)', () => {
-    expect(wrapper.find("li").length).toBe(4);
+  it('Should render 1 <li> element for each nav item (3 total)', () => {
+    expect(wrapper.find("li").length).toBe(3);
   })
 })
